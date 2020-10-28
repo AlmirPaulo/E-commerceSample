@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython_stdlib.js"></script>
+  <script type='text/python' src='store.py'></script>
+  <title>Style Store</title>
+</head>
+<body onload='brython()'>
+  <header>
+  <div class='navbar'> 
+    <div class="logo">
+      <h3>Style Store</h3>
+    </div>
+    <div class="control">
+        <div class='cart'>
+          <span id="cart"> Testando isso daqui</span>
+        </div>
+        <div>
+        <img src="cart.png" alt="">
+        </div>
+        <div class='total'>
+          <h3>Total:<span>000</span></h3>
+        </div>
+        <div>
+        <button id='clear-btn'>Clear</button>
+        </div>
+    </div>
+  </div>
+  </header>
+  <div class="shop">
+    <div class="photo"><img src="t-shirt.jpg" alt=""></div>
+    <div class="options">
+      <div class='box'>
+        <div>
+          <h1>Amazing T-Shirt</h1>
+          <p>Lorem est eius id quod illo. Tempore iste optio ea dolorum explicabo sunt perferendis Error rem eum tempore cum nisi. Aperiam impedit iusto quibusdam saepe dignissimos quasi. Consequuntur sunt id?</p>
+        </div>
+        <div>
+          <input type="radio" id='Small'>
+          <label for="Small">Small</label>
+        </div>
+        <div>
+        <input type="radio" id='Medium'>
+        <label for="Medium">Medium</label>
+      </div>
+      <div>
+        <input type="radio" id='Large'>
+        <label for="Large">Large</label>
+      </div>
+      <div>
+        <input type="radio" id='Extra Large'>
+        <label for="Extra Large">Extra Large</label>
+      </div>
+      <button>Buy</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Webpage and application by Almir Paulo</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Titillium Web';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #d0d0d0;
+  font-size:1.6rem;
+}
+
+header {
+  background:#9696ff;
+}
+
+.logo{
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+.navbar { 
+  display:flex;
+  justify-content:space-between;
+}
+
+.control {
+  display: flex;
+} 
+.control button {
+  background: transparent;
+  border-style: none;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold; 
+  margin: 10px 10px 0 10px; 
+}
+
+.control img {
+  margin: 10px 0;
+}
+
+.cart {
+  margin: 10px 10px 0 0;
+}
+
+.total {
+  margin: 10px 5px 0 5px;
+}
+
+.shop {
+  display: flex;
+  justify-content:center;
+  margin-top:5vh;
+}
+
+.shop img {
+  width: 25vw;
+  height: auto;
+  border-radius: 5px;
+}
+
+.box{
+  align-items:baseline;
+  width:30vw;
+  height:auto;
+  text-align:center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:column;
+  background: #bababa;
+}
+.box button {
+  background: transparent;
+  border-style: none;
+  color: #000000;
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
+
+footer {
+  text-align: center;
+}
+
+@media(max-width:820px) {
+  .box {
+    font-size: 1.2rem;
+    width:60vw;
+  }
+  .box button{
+    font-size: 2rem;
+  } 
+  .shop{
+    margin-left: 22vw;
+    display: block;
+  } 
+  .shop img{
+    width: 60vw;
+  }
+  header{
+    font-size:1.2rem;
+  }
+  .logo{
+    font-size: 1.4rem;
+  }
+}
+
