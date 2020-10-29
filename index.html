@@ -17,7 +17,7 @@
     </div>
     <div class="control">
         <div class='cart'>
-          <span id="cart"> Testando isso daqui</span>
+          <span id="cart"> </span>
         </div>
         <div>
         <img src="cart.png" alt="">
@@ -53,29 +53,24 @@
     <label for="r-s3" class='s-btn'></label>
   </div>
 </div>
-    <div class="options">
+    <div class="options" id='options'>
       <div class='box'>
         <div>
           <h1>Amazing T-Shirt</h1>
           <p>Lorem est eius id quod illo. Tempore iste optio ea dolorum explicabo sunt perferendis Error rem eum tempore cum nisi. Aperiam impedit iusto quibusdam saepe dignissimos quasi. Consequuntur sunt id?</p>
         </div>
-        <div>
-          <input type="radio" name= 'size'id='small'>
-          <label for="size">Small</label>
-        </div>
-        <div>
-        <input type="radio" name= 'size' id='medium'>
-        <label for="size">Medium</label>
-      </div>
-      <div>
-        <input type="radio" name= 'size' id='large'>
-        <label for="size">Large</label>
-      </div>
-      <div>
-        <input type="radio" name= 'size' id='xl'>
-        <label for="size">Extra Large</label>
-      </div>
-      <button>Buy</button>
+        <span><h3> Size:
+        <select id="opt" name="">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          <option value="xl">Extra Large</option>
+        </select>
+          </h3></span>
+        <span><h3> Quantity:
+        <input type="text" id='hm'>
+          </h3></span>
+      <button id='btn'>Buy</button>
       </div>
     </div>
   </div>
