@@ -32,7 +32,27 @@
   </div>
   </header>
   <div class="shop">
-    <div class="photo"><img src="t-shirt.jpg" alt=""></div>
+    <div class="slideshow">
+      <div class="slides">
+      <input type="radio" name='r' id='r-s1' checked>
+      <input type="radio" name='r' id='r-s2'>
+      <input type="radio" name='r' id='r-s3'>
+      <div class="slide s1">
+        <img class="slide" src="pic1.jpg" alt="photo" >
+      </div>
+      <div class="slide">
+        <img class="slide" src="pic2.jpg" alt="photo"> 
+      </div>
+      <div class="slide">
+          <img class="slide" src="pic3.jpg" alt="photo" >
+      </div>
+    </div>
+  <div class="navigator">
+    <label for="r-s1" class='s-btn'></label>
+    <label for="r-s2"class='s-btn'></label>
+    <label for="r-s3" class='s-btn'></label>
+  </div>
+</div>
     <div class="options">
       <div class='box'>
         <div>
@@ -40,27 +60,27 @@
           <p>Lorem est eius id quod illo. Tempore iste optio ea dolorum explicabo sunt perferendis Error rem eum tempore cum nisi. Aperiam impedit iusto quibusdam saepe dignissimos quasi. Consequuntur sunt id?</p>
         </div>
         <div>
-          <input type="radio" id='Small'>
-          <label for="Small">Small</label>
+          <input type="radio" name= 'size'id='small'>
+          <label for="size">Small</label>
         </div>
         <div>
-        <input type="radio" id='Medium'>
-        <label for="Medium">Medium</label>
+        <input type="radio" name= 'size' id='medium'>
+        <label for="size">Medium</label>
       </div>
       <div>
-        <input type="radio" id='Large'>
-        <label for="Large">Large</label>
+        <input type="radio" name= 'size' id='large'>
+        <label for="size">Large</label>
       </div>
       <div>
-        <input type="radio" id='Extra Large'>
-        <label for="Extra Large">Extra Large</label>
+        <input type="radio" name= 'size' id='xl'>
+        <label for="size">Extra Large</label>
       </div>
       <button>Buy</button>
       </div>
     </div>
   </div>
-  <footer>
-    <p>Webpage and application by Almir Paulo</p>
-  </footer>
-</body>
+    <footer>
+      <p>Webpage and application by Almir Paulo</p>
+    </footer>
+  </body>
 </html>
